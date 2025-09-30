@@ -1,0 +1,79 @@
+------------------------what is playwright ? ---------------------------------------------------------------------------------
+playwright features : 
+open source tool developed by mircrosoft
+doen't need licence
+cross brower supports mutiple browsers chromium based browsers example chrome - edge - webKit and firefox
+cross platform   test on windows linux and maxos locaally or on CI and headless or headed 
+cross language  user the playwright api in typescrip  javascript - python - .Net , java
+Auto wait  playwright waits for elements to be actionable prior to performaing actions
+tracing configure test retry straetrgy  capture executions trace , video , screenshots  to elimintate flackes 
+test isocaltion  evey test runs in it's own browsercontext independent or others tests 
+test are run in parallel and one test failure wouldn't affect others 
+log in once : save the authentication state of the context and reuse it in all the tests 
+Api testing : playwright supports API test automation with simple implementation 
+code generation : Generate tests by recording your actions and save them intp any language
+visual testing:
+documentation :
+
+
+limitation =>new to market 
+doen't supports native  
+
+
+
+
+
+----------------------------setup enviroment---------------------------------------------------------------------------
+cmd 
+node --version   ======>  for envirmen  javascript or Typescript 
+npm --version    ======>  for dependcie or librarires 
+
+open visual studeio - setting - afer dely  ======>  for auto save 
+
+-------------to install playwright------------------------------------------------
+
+npm init playwright@latest
+
+-------------commands----------------------------------------------------------------------------------------------------
+
+npx playwright test   
+
+npx playwright test --ui
+
+npx playwright test --project=chromium
+
+npx playwright test example
+
+npx playwright test --debug
+
+npx playwright codegen 
+
+----------------extension--------------------------------------------------
+ go to extension and  install Playwright Test for VSCode
+--------------------------------------------------------------------------
+ 
+Command Palette  ----> ctrl shift p
+
+----------------version for playwright--------------------------------------------------
+npm playwright -v
+
+---------------all playwright commands--------------------------------------
+npx playwright -help 
+
+
+
+-------------------explore files------------------------
+package.json
+dh file feeeh all dependencies 
+dh same as maven 3asha te3mel update dependencies
+
+
+
+
+package lock.json
+dh fel kol el details 
+
+
+
+
+
